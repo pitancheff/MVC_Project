@@ -9,20 +9,14 @@ namespace MVC_WebApp.Controllers
 {
     public class TestController : Controller
     {
-        // GET: Test
-        //public ActionResult Index()
-        //{
-        //    return View();
-        //}
 
         public string MyFirstMethod()
         {
             return "Welcome to QuestPond!!!";
         }
 
-        public ActionResult MyFirstViewMethod()
+        public ActionResult MyFirstView()
         {
-
             CustomerBAL b = new CustomerBAL();
             Customer c = b.GetCustomer();
             ViewBag.CustomerData = c;
