@@ -30,7 +30,9 @@ namespace MVC_WebApp.Controllers
             //string CustomerName = "Mr. ABC";
             //ViewData["MyData"] = CustomerName;
             ////ViewBag.MyData = CustomerName;
-            return View("MyFirstView");
+            //return View("MyFirstView");
+
+            return View();
         }
 
     }
